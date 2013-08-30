@@ -1,4 +1,5 @@
-require 'gettext/tools/xgettext'
+#require 'gettext/tools/xgettext'
+require 'gettext_i18n_rails/gettext_hooks'
 
 module GettextI18nRailsJs
   class JsAndCoffeeParser
